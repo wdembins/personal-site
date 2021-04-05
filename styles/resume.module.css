@@ -1,0 +1,148 @@
+/*!
+ * Start Bootstrap - Resume v5.0.8 (https://startbootstrap.com/template-overviews/resume)
+ * Copyright 2013-2020 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-resume/blob/master/LICENSE)
+ */
+
+
+.lead {
+  font-size: 1.15rem;
+  font-weight: 400;
+}
+
+.subheading {
+  text-transform: uppercase;
+  font-weight: 500;
+  font-family: 'Saira Extra Condensed', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+  font-size: 1.5rem;
+}
+
+.socialIcons {
+  font-size: 2em;
+  color: var(--primary-text);
+  height: 2em;
+  width: 2em;
+}
+
+.socialIcons :hover {
+  color: var(--accent-color);
+}
+
+.navLink {
+  font-weight: 800;
+  letter-spacing: 0.05rem;
+  text-transform: uppercase;
+}
+
+#sideNav .navbar-toggler:focus {
+  outline-color: #d48a6e;
+}
+
+.profileImg {
+  height: 0;
+  width: 0;
+}
+
+@media (min-width: 992px) {
+  .sideNav {
+    text-align: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    flex-direction: column;
+    width: 17rem;
+    height: 100vh;
+  }
+  .navbarBrand {
+    display: flex;
+    margin: auto auto 0;
+    padding: 0.5rem;
+  }
+  .profileImg {
+    width: 10em;
+    height: 10em;
+    /*max-width: 10rem;
+    max-height: 10rem;*/
+    border: 0.5rem solid rgba(255, 255, 255, 0.2);
+  }
+  .navbarCollapse {
+    display: flex;
+    align-items: flex-start;
+    flex-grow: 0;
+    width: 100%;
+    margin-bottom: auto;
+  }
+  .navbarNav {
+    flex-direction: column;
+    width: 100%;
+  }
+  .navItems {
+    display: block;
+  }
+  .navLink {
+    display: block;
+  }
+}
+
+.resumeSection {
+  padding-top: 5rem !important;
+  padding-bottom: 5rem !important;
+  max-width: 75rem;
+}
+
+.resumeDate {
+  min-width: none;
+}
+
+@media (min-width: 768px) {
+  .resumeSection {
+    min-height: 100vh;
+  }
+  .resumeDate {
+    min-width: 18rem;
+  }
+}
+
+@media (min-width: 992px) {
+  .resumeSection {
+    padding-top: 3rem !important;
+    padding-bottom: 3rem !important;
+  }
+}
+
+.bgPrimary {
+  background-color: var(--accent-color) !important;
+}
+
+.textPrimary {
+  color: var(--accent-color) !important;
+  display: inline-block;
+}
+
+.devIcon {
+  font-size: 2em;
+  color: var(--primary-text);
+  height: 2em;
+  width: 2em;
+}
+
+.devIcon :hover {
+  color: var(--accent-color);
+}
+
+.awardIconContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.awardIcon {
+  height: 1.5em;
+  width: 1.5em;
+}
+
+.workflowItemIcon {
+  height: 1em;
+  width: 1em;
+}
