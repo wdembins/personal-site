@@ -16,8 +16,6 @@ export default function Resume() {
       <Head>
         <title>Wes Dembinski Resume</title>
         <meta name="description" content="Resume for Wes Dembinski"></meta>
-        <link href="https://fonts.googleapis.com/css?family=Saira+Extra+Condensed:500,700&display=swap" rel="stylesheet" media='screen' />
-        <link href="https://fonts.googleapis.com/css?family=Muli:400,400i,800,800i&display=swap" rel="stylesheet" media='screen' />
       </Head>
       <Navbar fixed='top' bg="dark" variant="dark" expand="lg" className={`${styles.sideNav} ${styles.bgPrimary}`}>
         <Navbar.Brand href="#home" className={styles.navbarBrand}>
